@@ -1,0 +1,182 @@
+*{
+    margin: 0;           
+    font-family: fantasy;              
+}
+
+div.container{
+    margin: 0 auto;
+    padding: 10px;
+    width: 1000px;
+    height: 900px;
+}
+
+    /* START HEADER */
+    div.container div.header{
+        padding: 10px;
+        height: 470px;
+        background-color: #245076;
+    }
+
+        div.container div.header p {
+            margin-right: 35px ;
+            margin-left: 750px;
+            color: white;     
+        }
+
+        div.container div.header a{
+            color: #f8cf32;
+                     
+        }
+        
+        div.container div.header img, form{
+            display: inline-block;
+            vertical-align: top;
+        }
+
+        div.container div.header img{
+            margin-top: -20px;
+            height: 110px;
+        }
+
+        div.container div.header form{
+            width: 220px;
+            border-radius: 10px;
+            margin: -11px 0px 0px 300px;
+            background-color: #444444;
+            padding: 14px 30px 14px 30px;    
+        }
+
+            div.header form input[type=search]{
+                height: 30px;
+            } 
+
+            div.header form button{
+                background-color: #245076;
+                height: 30px;
+                border-radius: 7px;
+                color: white;
+            }
+                
+        div.header div.nav_bar{
+            box-shadow: 0px 5px 5px 0px rgba(0,0,0,25%);
+            border-radius: 7px;
+            margin: 5px 0px 0px 60px;
+            height: 45px;
+            width: 890px;
+            background-color: #437cad;
+        }
+
+            div.header div.nav_bar ul li{ 
+                display: inline-block;
+                margin-right: 30px; 
+                padding: 10px 5px 5px 13px;
+            }
+
+            div.header div.nav_bar ul li a{
+                    text-decoration: none;
+                    color: white;
+                    font-size: 21px;
+            }   
+
+        div.container div.header div.content div, ul{   
+            display: inline-block;
+            vertical-align: top;
+        }
+
+            div.header div.content ul{
+                margin: 35px 0px 0px 73px;
+                list-style-type: none;
+                text-align: center;
+                line-height: 26px;           
+            }
+
+            div.header div.content ul li a::before{
+                color: #f8cf32;
+                content: "\00bb";
+                font-size: 13px;       
+            }
+
+                div.header div.content ul li a{
+                    color: white;
+                }
+
+        div.header div.content div{
+            padding: 2px;
+            margin: 15px 0px 0px 29px;
+            width: 655px;
+            height: 250px;
+            text-align: center; 
+        }
+
+            div.header div.content div p{
+                margin: 0px 0px -15px 0px;
+                font-size: 14px;
+            }
+
+            div.header div.content div i{
+                line-height: 30px;
+                margin-top: -5px;
+                font-size: 18px;
+                color: #f8cf32;
+            }
+            /* END HEADER */
+
+    /* START SUB-CONTENT */
+    div.container div.sub_content{
+        height: 250px;     
+    }
+
+        div.sub_content div{                      
+            display: inline-block;
+            border: 0;
+        }
+
+        div.sub_content div{
+            padding: 8px 0px 0px 25px;
+            margin: 0px 0px 0px 80px;
+            width: 330px;   
+        }
+
+        div.sub_content div h3{
+            border-top: 5px solid #437cad;
+            text-align: center;
+         }
+
+            div.sub_content div p{      
+                margin-top: 5px;
+                text-align: center;                
+            } 
+    
+            div.sub_content div ul li{
+                list-style-type: square;
+                width: 280px;
+            }
+
+            div.sub_content div ul li a{
+                text-decoration: none;
+                color: #437cad;
+                line-height: 25px;
+                font-size: 16px;         
+            }
+
+            div.sub_content div span{
+                color: #437cad;
+            }
+            /* END SUB-CONTENT */
+    
+    /* START FOOTER */
+    div.container div.footer{
+        padding-top: 55px;
+        height:50px;
+        background-color:#245076;
+    } 
+
+        div.footer p{
+            display: inline;
+            padding-left: 50px;
+            color: white;
+            margin-left: 80px;
+            font-size: 17px;
+            text-align: center;
+        } 
+        /* END FOOTER */
